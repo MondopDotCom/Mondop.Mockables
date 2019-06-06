@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <Version>0.0.1</Version>
+    <Authors>Marcel Vroone</Authors>
+    <Company>It-actief</Company>
+    <Product>Mondop</Product>
+    <Description>Package containing Interfaces and implementation of .Net classes that require external resources, so that can be mocked.</Description>
+    <Copyright>Copyright 2019 by It-actief</Copyright>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>http://www.mondop.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MondopDotCom/Mondop.Mockables</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
