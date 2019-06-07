@@ -9,7 +9,7 @@ namespace Mondop.Mockables
     public interface IFile
     {
         void AppendAllLines(string path, IEnumerable<string> contents);
-        void AppendAllLines(string path, IEnumerable<string> contents, Encoding encoding);
+         void AppendAllLines(string path, IEnumerable<string> contents, Encoding encoding);
         void AppendAllText(string path, string contents);
         void AppendAllText(string path, string contents, Encoding encoding);
         //StreamWriter AppendText(string path);
