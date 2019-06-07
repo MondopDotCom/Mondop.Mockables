@@ -13,4 +13,8 @@
     <RepositoryUrl>https://github.com/MondopDotCom/Mondop.Mockables</RepositoryUrl>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Mondop.Abstractions" Version="1.0.3" />
+  </ItemGroup>
+
 </Project>
