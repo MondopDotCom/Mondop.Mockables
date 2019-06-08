@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.3</TargetFramework>
-    <Version>0.0.1</Version>
+    <TargetFrameworks>net40;net45;netstandard1.3;netstandard2.0</TargetFrameworks>
+    <Version>0.0.2</Version>
     <Authors>Marcel Vroone</Authors>
     <Company>It-actief</Company>
     <Product>Mondop</Product>
@@ -11,10 +11,12 @@
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl>http://www.mondop.com</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MondopDotCom/Mondop.Mockables</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>0.0.2 - Add multiple targets</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Mondop.Abstractions" Version="1.0.3" />
+    <PackageReference Include="Mondop.Abstractions" Version="1.0.4" />
   </ItemGroup>
 
 </Project>
