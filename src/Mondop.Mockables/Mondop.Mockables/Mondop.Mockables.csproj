@@ -12,11 +12,13 @@
     <PackageProjectUrl>http://www.mondop.com</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MondopDotCom/Mondop.Mockables</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageReleaseNotes>0.0.2 - Add multiple targets</PackageReleaseNotes>
+    <PackageReleaseNotes>0.0.2 - Add multiple targets
+0.0.3 - Added IDirectory,IDirectoryInfo,IFileInfo</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Mondop.Abstractions" Version="1.0.4" />
+    <PackageReference Include="Mondop.Guard" Version="1.0.1" />
   </ItemGroup>
 
 </Project>
