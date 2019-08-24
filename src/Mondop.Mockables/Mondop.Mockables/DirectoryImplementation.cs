@@ -6,6 +6,7 @@ namespace Mondop.Mockables
 {
     public class DirectoryImplementation : IDirectory
     {
+        public IDirectoryInfo CreateDirectory(string path) => new DirectoryInfoImplementation(Directory.CreateDirectory(path));
         public void Delete(string path) => Directory.Delete(path);
         public void Delete(string path, bool recursive) => Directory.Delete(path, recursive);
         public IEnumerable<string> EnumerateDirectories(string path) => Directory.EnumerateDirectories(path);
@@ -37,7 +38,7 @@ namespace Mondop.Mockables
         public DateTime GetLastAccessTimeUtc(string path) => Directory.GetLastAccessTimeUtc(path);
         public DateTime GetLastWriteTime(string path) => Directory.GetLastWriteTime(path);
         public DateTime GetLastWriteTimeUtc(string path) => Directory.GetLastWriteTimeUtc(path);
-
+        public IDirectoryInfo GetParent(string path) => new DirectoryInfoImplementation(Directory.GetParent(path));
         public void Move(string sourceDirName, string destDirName) => Directory.Move(sourceDirName, destDirName);
         public void SetCreationTime(string path, DateTime creationTime) => Directory.SetCreationTime(path, creationTime);
         public void SetCreationTimeUtc(string path, DateTime creationTimeUtc) => Directory.SetCreationTimeUtc(path, creationTimeUtc);

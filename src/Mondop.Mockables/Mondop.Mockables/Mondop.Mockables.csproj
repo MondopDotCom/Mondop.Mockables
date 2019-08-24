@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>net40;net45;netstandard1.3;netstandard2.0</TargetFrameworks>
-    <Version>0.0.3</Version>
+    <Version>0.0.4</Version>
     <Authors>Marcel Vroone</Authors>
     <Company>It-actief</Company>
     <Product>Mondop</Product>
@@ -13,7 +13,8 @@
     <RepositoryUrl>https://github.com/MondopDotCom/Mondop.Mockables</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageReleaseNotes>0.0.2 - Add multiple targets
-0.0.3 - Added IDirectory,IDirectoryInfo,IFileInfo</PackageReleaseNotes>
+0.0.3 - Added IDirectory,IDirectoryInfo,IFileInfo
+0.0.4 - Implemented IDirectory.CreateDirectory and IDirectory.GetParent</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

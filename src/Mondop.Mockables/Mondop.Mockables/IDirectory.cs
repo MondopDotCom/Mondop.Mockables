@@ -6,8 +6,7 @@ namespace Mondop.Mockables
 {
     public interface IDirectory
     {
-        //TODO: Implement DirectoryInfo
-        //DirectoryInfo CreateDirectory(string path);
+        IDirectoryInfo CreateDirectory(string path);
         void Delete(string path);
         void Delete(string path, bool recursive);
         IEnumerable<string> EnumerateDirectories(string path);
@@ -37,9 +36,7 @@ namespace Mondop.Mockables
         DateTime GetLastAccessTimeUtc(string path);
         DateTime GetLastWriteTime(string path);
         DateTime GetLastWriteTimeUtc(string path);
-
-        //TODO: Implement DirectoryInfo
-        //DirectoryInfo GetParent(string path);
+        IDirectoryInfo GetParent(string path);
         void Move(string sourceDirName, string destDirName);
         void SetCreationTime(string path, DateTime creationTime);
         void SetCreationTimeUtc(string path, DateTime creationTimeUtc);
